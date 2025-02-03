@@ -1,0 +1,26 @@
+.home {
+  padding: 2rem;
+  text-align: center;
+  background-image: url('Homepage background.jpg'); /* Add a background image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Make the section take full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* Text color on dark background */
+}
+
+.home-content {
+  text-align: center;
+}
+
+.home-content h1 {
+  font-size: 3rem;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.home-content p {
+  font-size: 1.5rem;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
